@@ -8,8 +8,16 @@
 
 #include <stdio.h>
 
+#include "tcc.h"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    TCCState *s;
+    int ret, optind, i, bench;
+    int64_t start_time = 0;
+    const char *first_file = NULL;
+
+    //printf("test\n");
+    
     return 0;
 }
