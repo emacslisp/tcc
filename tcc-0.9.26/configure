@@ -183,7 +183,7 @@ done
 
 # Checking for CFLAGS
 if test -z "$CFLAGS"; then
-    CFLAGS="-Wall -g -O2"
+    CFLAGS="-Wall -gdwarf-2 -g3"
 fi
 
 if test "$mingw32" = "yes" ; then
