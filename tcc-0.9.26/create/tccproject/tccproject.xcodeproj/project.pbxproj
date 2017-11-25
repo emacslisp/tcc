@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96B1D14F1FC7E72D00A49F3A /* libtcc.c in Sources */ = {isa = PBXBuildFile; fileRef = 96B1D14E1FC7E72D00A49F3A /* libtcc.c */; };
 		96E545A21FC7A3200011B6E0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 96E545A11FC7A3200011B6E0 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +24,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		96B1D14E1FC7E72D00A49F3A /* libtcc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libtcc.c; sourceTree = "<group>"; };
 		96E5459E1FC7A3200011B6E0 /* tccproject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tccproject; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E545A11FC7A3200011B6E0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		96E545A81FC7BEFB0011B6E0 /* libtcc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libtcc.h; sourceTree = "<group>"; };
+		96E545A91FC7BF2A0011B6E0 /* tcc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tcc.h; sourceTree = "<group>"; };
+		96E545AA1FC7BF640011B6E0 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		96E545AB1FC7BF940011B6E0 /* elf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = elf.h; sourceTree = "<group>"; };
+		96E545AC1FC7C0530011B6E0 /* i386-gen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "i386-gen.c"; sourceTree = "<group>"; };
+		96E545AD1FC7C0DD0011B6E0 /* tcctok.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tcctok.h; sourceTree = "<group>"; };
+		96E545AE1FC7C1020011B6E0 /* i386-tok.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "i386-tok.h"; sourceTree = "<group>"; };
+		96E545AF1FC7C1360011B6E0 /* i386-asm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "i386-asm.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				96E545A11FC7A3200011B6E0 /* main.c */,
+				96E545A81FC7BEFB0011B6E0 /* libtcc.h */,
+				96E545A91FC7BF2A0011B6E0 /* tcc.h */,
+				96E545AA1FC7BF640011B6E0 /* config.h */,
+				96E545AB1FC7BF940011B6E0 /* elf.h */,
+				96E545AC1FC7C0530011B6E0 /* i386-gen.c */,
+				96E545AD1FC7C0DD0011B6E0 /* tcctok.h */,
+				96E545AE1FC7C1020011B6E0 /* i386-tok.h */,
+				96E545AF1FC7C1360011B6E0 /* i386-asm.h */,
+				96B1D14E1FC7E72D00A49F3A /* libtcc.c */,
 			);
 			path = tccproject;
 			sourceTree = "<group>";
@@ -118,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B1D14F1FC7E72D00A49F3A /* libtcc.c in Sources */,
 				96E545A21FC7A3200011B6E0 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +259,7 @@
 				96E545A71FC7A3200011B6E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,7 @@
 #include <stdio.h>
 
 #include "tcc.h"
+#include "libtcc.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -17,6 +18,10 @@ int main(int argc, const char * argv[]) {
     int64_t start_time = 0;
     const char *first_file = NULL;
 
+    s = tcc_new();
+    s->output_type = TCC_OUTPUT_EXE;
+
+    
     //printf("test\n");
     
     return 0;
